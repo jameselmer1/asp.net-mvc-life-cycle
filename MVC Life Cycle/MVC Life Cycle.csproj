@@ -195,6 +195,10 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Configuration\Redirect.cs" />
+    <Compile Include="Configuration\RedirectCollection.cs" />
+    <Compile Include="Configuration\RedirectModule.cs" />
+    <Compile Include="Configuration\RedirectSection.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />

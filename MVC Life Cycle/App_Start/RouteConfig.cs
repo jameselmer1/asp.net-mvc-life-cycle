@@ -13,7 +13,9 @@ namespace MVC_Life_Cycle
    {
       public static void RegisterRoutes(RouteCollection routes)
       {
-         routes.Add(new Route("about/home", new SampleRouteHandler()));
+         //Create your own handler
+         //routes.Add(new Route("about/home", new SampleRouteHandler()));
+
          routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
          //This is an extension method that hides the RouteHandler
